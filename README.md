@@ -1,3 +1,8 @@
+#### 1.新建一个SpringBoot工程并且创建依赖
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
 ##`DataSourceNodeEnum`
     数据源节点代码枚举  
 ##`DataSourceContextHolder`
