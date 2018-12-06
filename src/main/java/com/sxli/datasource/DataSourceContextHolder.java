@@ -22,6 +22,12 @@ public class DataSourceContextHolder {
      * @return
      */
     public static DataSourceNodeEnum node() {
-        return DATASOURCE_NODES.get();
+        DataSourceNodeEnum nodeEnum;
+        try {
+            nodeEnum = DATASOURCE_NODES.get();
+        } finally {
+            DATASOURCE_NODES.remove();
+        }
+        return nodeEnum;
     }
 }
