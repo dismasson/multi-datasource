@@ -3,8 +3,8 @@ package com.sxli.dao;
 public interface TestDao {
 
     /*
-    * 统计db1的test表的数据量
-    */
+     * 统计db1的test表的数据量
+     */
     Long countTestByDB1();
 
     /*
